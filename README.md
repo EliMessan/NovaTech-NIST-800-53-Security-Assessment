@@ -54,14 +54,18 @@ UFW was active with incoming traffic denied by default and outgoing traffic allo
 The assessment identified password-aging and SSH authentication settings requiring further review or hardening. Technical configuration checks were documented without claiming full compliance with the control.
 
 ## Project Deliverables
-- Security control assessment tracker
-- Technical evidence organized by NIST control
-- Vulnerability assessment results
-- Risk register
-- Plan of Action and Milestones (POA&M)
-- Final Security Assessment Report
 
-> Supporting documents and sanitized technical evidence will be linked here after upload.
+| Deliverable | Description |
+|---|---|
+| [Final Security Assessment Report](NovaTech_Final_Security_Assessment_Report.pdf) | Professional assessment report documenting findings, control implementation gaps, risk analysis, and remediation recommendations. |
+| [NIST SP 800-53 Assessment Tracker](NovaTech_NIST_800-53_Reviewed.xlsx) | Assessment documentation for 12 security controls, including findings, evidence, implementation status, and risk ratings. |
+| [Risk Register](NovaTech_Risk_Register.xlsx) | Documents identified security weaknesses, associated risks, severity levels, and recommended risk treatment. |
+| [Plan of Action and Milestones (POA&M)](NovaTech_POAM.xlsx) | Tracks proposed remediation actions, priorities, responsible roles, and target completion dates. |
+| [Technical Evidence](04-Technical-Evidence/) | Screenshots and supporting records organized by NIST security control. |
+
+### Risk Management and Remediation Planning
+
+Beyond technical testing, this project demonstrates the security assessment lifecycle. I identified and documented security control weaknesses, evaluated their risk severity, and developed a Risk Register and POA&M to translate findings into prioritized remediation plans. The proposed actions are documented for future implementation and verification.
 
 ## Skills Demonstrated
 NIST SP 800-53 control assessment, Linux security administration, access control testing, least privilege, security logging, vulnerability assessment, endpoint malware protection, firewall review, evidence collection, risk analysis, remediation planning, and technical reporting.
